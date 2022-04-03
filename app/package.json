@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ankit-v2-1/CWE-259-hard-coded-password",
+  "author": "ankit raj",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ts-node-dev": "^1.1.8"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only app.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
