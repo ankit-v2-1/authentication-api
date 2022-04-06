@@ -3,6 +3,8 @@ import { createUserHandler, validateUserHandler } from '../controler/user.contro
 
 const router = Router();
 
+// Create endpoint for user authentication.
+
 router.post('/register', createUserHandler);
 router.post('/login', validateUserHandler);
 
