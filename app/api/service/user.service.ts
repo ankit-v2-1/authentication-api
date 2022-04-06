@@ -17,6 +17,7 @@ export function createUserServie(body: any, callback: any) {
 }
 
 
+
 export function validateUserServie(body: any, callback: any) {
 
     let sql = "SELECT * FROM users WHERE email = ?";
@@ -31,3 +32,5 @@ export function validateUserServie(body: any, callback: any) {
     });
 
 };
+
+
